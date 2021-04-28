@@ -59,6 +59,7 @@ namespace E_Card_Generator
                 imgDefault.Visible = false;
 
             lblGretting.Text = txtGreeting.Text;
+            //My first change to be commited to the local repo.
         }
     }
 }
