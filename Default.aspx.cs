@@ -14,6 +14,7 @@ namespace E_Card_Generator
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            // My third change to commit
             if(!IsPostBack)
             {
                 //Set color options
@@ -25,7 +26,7 @@ namespace E_Card_Generator
                 foreach(FontFamily family in fonts.Families)
                 {
                     lstFontName.Items.Add(family.Name);
-                }
+                }                
                 //set border style
                 string[] borderStyleArray = Enum.GetNames(typeof(BorderStyle));
                 lstBorder1.DataSource = borderStyleArray;
