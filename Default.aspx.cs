@@ -35,6 +35,7 @@ namespace E_Card_Generator
                 //set the picture
                 imgDefault.ImageUrl = "~/App_Image/defaultpic.png";
                 imgDefault.Visible = false;
+                // this is my second change
             }
         }
 
